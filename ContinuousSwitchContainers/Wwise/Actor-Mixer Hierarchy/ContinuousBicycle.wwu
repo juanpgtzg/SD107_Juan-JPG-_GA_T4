@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1F17F29B-3854-4C6F-B883-E51633E444FF}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="ContinuousBicycle" ID="{1F17F29B-3854-4C6F-B883-E51633E444FF}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="ContinuousBicycle_Surface" ID="{AEC24BBB-C744-4C4A-85BF-3322D7ADD31E}" ShortID="147182453">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Asphalt" ID="{79BF41DB-626B-4E29-8399-776E06725E49}" WorkUnitID="{8F8E6531-AFCE-4689-86D9-3449DA562C9D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="BicycleSurface" ID="{EF8FB6D1-B64E-43F9-8A08-791F73DD2913}" WorkUnitID="{8F8E6531-AFCE-4689-86D9-3449DA562C9D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ContinuousBicycle_Surface_Gravel" ID="{67F2FE61-FB42-4814-8323-77D36E46CA6F}" ShortID="390289887">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ContinuousBicycle_Surface_Gravel_02" ID="{519BDDDF-35C2-4500-A085-BD7A38D56C70}" ShortID="351986842">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[0, 1]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND46104"/>
+										<Property Name="Soundly:FileName" Type="string" Value="C:\Users\SD107J~1\AppData\Local\Temp\tmpaciaep_a\afcache\1426367345Ff4sxqvM_wkFwGSND46104sfy.sfy"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="32.389583333333334"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="H:\Soundly Audio\Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Gravel Surface 02 SND46104 2.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="192000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.39"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.39"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Gravel Surface 02 SND46104 2" ID="{D2D07731-A4EF-4EE7-97EB-96A4FB69E59D}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="511.414"/>
+												<Property Name="LoopBegin" Type="Real64" Value="4.44123095567867"/>
+												<Property Name="LoopEnd" Type="Real64" Value="24.9875317405356"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND46104"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.99262176823638"/>
+												<Property Name="TrimEnd" Type="Real64" Value="25.4810018467221"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Gravel Surface 02 SND46104 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="941851366"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Gravel Surface 02 SND46104 2" ID="{D2D07731-A4EF-4EE7-97EB-96A4FB69E59D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ContinuousBicycle_Surface_Gravel_01" ID="{4283CACE-6881-4A5D-989E-3F99A9A36642}" ShortID="877516510">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND46105"/>
+										<Property Name="Soundly:FileName" Type="string" Value="C:\Users\SD107J~1\AppData\Local\Temp\tmpaciaep_a\afcache\1426367345Ff4sxqvM_wkFwGSND46105sfy.sfy"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="27.170833333333334"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="H:\Soundly Audio\Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Gravel Surface 01 SND46105 2.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="192000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Gravel Surface 01 SND46105 2" ID="{49184A75-2BE7-4857-8FEA-D1643D02C02E}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="500.515"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.287"/>
+												<Property Name="LoopEnd" Type="Real64" Value="23.7086218836565"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND46105"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.65584025854109"/>
+												<Property Name="TrimEnd" Type="Real64" Value="24.0849492151431"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Gravel Surface 01 SND46105 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="393832180"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Gravel Surface 01 SND46105 2" ID="{49184A75-2BE7-4857-8FEA-D1643D02C02E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ContinuousBicycle_Surface_Smooth" ID="{836AD855-D18A-437D-81F2-7ECBC25DB906}" ShortID="546133333">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ContinuousBicycle_Surface_Smooth_01" ID="{D491AEB2-A96E-4BE4-96D1-0BBEF9079703}" ShortID="43574865">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[0, 1]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND46102"/>
+										<Property Name="Soundly:FileName" Type="string" Value="C:\Users\SD107J~1\AppData\Local\Temp\tmpaciaep_a\afcache\1426367345Ff4sxqvM_wkFwGSND46102sfy.sfy"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="40.6375"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="H:\Soundly Audio\Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Smooth Surface 01 SND46102.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="192000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Smooth Surface 01 SND46102" ID="{37D75F58-3455-4806-92E9-878843D7C79E}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="641.645"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.138"/>
+												<Property Name="LoopEnd" Type="Real64" Value="34.435"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND46102"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.01312326869806"/>
+												<Property Name="TrimEnd" Type="Real64" Value="35.234175900277"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Smooth Surface 01 SND46102.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753205992"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Smooth Surface 01 SND46102" ID="{37D75F58-3455-4806-92E9-878843D7C79E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ContinuousBicycle_Surface_Smooth_02" ID="{A9AD0ABD-F9EB-469B-BF8D-C360A124EFC9}" ShortID="582010257">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[0, 1]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND46101"/>
+										<Property Name="Soundly:FileName" Type="string" Value="C:\Users\SD107J~1\AppData\Local\Temp\tmpaciaep_a\afcache\1426367345Ff4sxqvM_wkFwGSND46101sfy.sfy"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="24.866666666666667"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="H:\Soundly Audio\Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Smooth Surface 02 SND46101 1.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="192000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Smooth Surface 02 SND46101 1" ID="{5E5C0D7E-6A53-460C-8714-BDAE6CD35489}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="523.509"/>
+												<Property Name="LoopBegin" Type="Real64" Value="1.046"/>
+												<Property Name="LoopEnd" Type="Real64" Value="21.071"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND46101"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.757710064635272"/>
+												<Property Name="TrimEnd" Type="Real64" Value="21.4914127423823"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Smooth Surface 02 SND46101 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="25244725"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Bicycle, BMX, Outdoor, POV, Continuous Ride, Smooth Surface 02 SND46101 1" ID="{5E5C0D7E-6A53-460C-8714-BDAE6CD35489}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ContinuousBicycle_Surface_Asphalt" ID="{6FA9FFE3-3091-4A1E-B6C9-6282A94EBA05}" ShortID="115302890">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ContinuousBicycle_Surface_Asphalt_01" ID="{E66F87DA-D20B-4EB7-ACB9-576D2A1DB724}" ShortID="949574365">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND10812"/>
+										<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1695170054lNTJYZNh15_JZwvaRs&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND10812/sfy_QhKuhNDceAVWKsdrAaxYYGQGJEdPlp"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="12.958333333333334"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="H:\Soundly Audio\Vehicles, Bicycle, Mountain Bike, Asphalt, Normal Speed, Brake, Squeak, Stop SND10812.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Normal Speed, Brake, Squeak, Stop SND10812" ID="{6ED160B7-9593-4215-875E-A91D120E1BD3}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="375.11"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.30328757225434"/>
+												<Property Name="LoopEnd" Type="Real64" Value="9.5314908477842"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND10812"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.94749518304432"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.79365366088632"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Vehicles, Bicycle, Mountain Bike, Asphalt, Normal Speed, Brake, Squeak, Stop SND10812.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="780252482"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Asphalt, Normal Speed, Brake, Squeak, Stop SND10812" ID="{6ED160B7-9593-4215-875E-A91D120E1BD3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ContinuousBicycle_Surface_Asphalt_02" ID="{8CA9D79A-991E-470E-AFF8-6AB641B50BBF}" ShortID="939672061">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND10821"/>
+										<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1695170054lNTJYZNh15_JZwvaRs&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND10821/sfy_mATbSdcSttdwgiPePvBiLUBdadXEcI"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="72.24305555555554"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="H:\Soundly Audio\Vehicles, Bicycle, Mountain Bike, Pavement, Bumps, Rattle, Various Speed SND10821 1.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.018333333333333333"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.36666666666666664"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Pavement, Bumps, Rattle, Various Speed SND10821 1" ID="{6F099BE4-A968-48FB-93AF-3EB3915EC670}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="3231.926"/>
+												<Property Name="LoopBegin" Type="Real64" Value="4.6176921563905"/>
+												<Property Name="LoopEnd" Type="Real64" Value="39.8419136510517"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND10821"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.11215277777778"/>
+												<Property Name="TrimEnd" Type="Real64" Value="42.2430555555556"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Vehicles, Bicycle, Mountain Bike, Pavement, Bumps, Rattle, Various Speed SND10821 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="969556999"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Pavement, Bumps, Rattle, Various Speed SND10821 1" ID="{6F099BE4-A968-48FB-93AF-3EB3915EC670}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ContinuousBicycle_Surface_Grass" ID="{9B690040-1CB4-4BF3-87E0-D6659B7538AA}" ShortID="628303035">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ContinuousBicycle_Surface_Grass_01" ID="{5E2A0F39-D698-4C9E-B2BE-1B4C51C0BE65}" ShortID="74617038">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+										<Property Name="Soundly:FileID" Type="string" Value="SND10826"/>
+										<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1695170054lNTJYZNh15_JZwvaRs&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND10826/sfy_IzfdoWzDfeAwjivaCqQBLkVmhBazro"/>
+										<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+										<Property Name="Soundly:HandleStopTime" Type="string" Value="38.708333333333336"/>
+										<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
+										<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
+										<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+										<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+										<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
+										<Property Name="Soundly:RenderedFilePath" Type="string" Value="H:\Soundly Audio\Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826.wav"/>
+										<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="96000"/>
+										<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.13166666666666665"/>
+										<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.13166666666666665"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4476C840-8762-4C60-BA21-FE139BC595E1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2C30735D-847A-4DB3-B5C9-B6C3F83EBAA6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826" ID="{13B054A6-2045-41C6-B615-B2742156BFED}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1629.825"/>
+												<Property Name="LoopBegin" Type="Real64" Value="16.3335741811175"/>
+												<Property Name="LoopEnd" Type="Real64" Value="33.1705804431599"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND10826"/>
+												<Property Name="TrimBegin" Type="Real64" Value="14.823277938343"/>
+												<Property Name="TrimEnd" Type="Real64" Value="35.1283718689789"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Soundly Audio\Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="721067447"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vehicles, Bicycle, Mountain Bike, Grass, Leaves, Normal Speed SND10826" ID="{13B054A6-2045-41C6-B615-B2742156BFED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="ContinuousBicycle_Surface_Grass" ID="{9B690040-1CB4-4BF3-87E0-D6659B7538AA}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="ContinuousBicycle_Surface_Smooth" ID="{836AD855-D18A-437D-81F2-7ECBC25DB906}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="ContinuousBicycle_Surface_Gravel" ID="{67F2FE61-FB42-4814-8323-77D36E46CA6F}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="ContinuousBicycle_Surface_Asphalt" ID="{6FA9FFE3-3091-4A1E-B6C9-6282A94EBA05}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Grass" ID="{37840623-9F9D-4496-9C83-FEB324D590BF}"/>
+								<ItemList>
+									<ItemRef Name="ContinuousBicycle_Surface_Grass" ID="{9B690040-1CB4-4BF3-87E0-D6659B7538AA}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Smooth" ID="{719F7A33-33FA-4F72-967B-4D8C9E0DDEB2}"/>
+								<ItemList>
+									<ItemRef Name="ContinuousBicycle_Surface_Smooth" ID="{836AD855-D18A-437D-81F2-7ECBC25DB906}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Gravel" ID="{D557C7D1-5E70-47E4-9683-5A34DCB88DAE}"/>
+								<ItemList>
+									<ItemRef Name="ContinuousBicycle_Surface_Gravel" ID="{67F2FE61-FB42-4814-8323-77D36E46CA6F}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Asphalt" ID="{79BF41DB-626B-4E29-8399-776E06725E49}"/>
+								<ItemList>
+									<ItemRef Name="ContinuousBicycle_Surface_Asphalt" ID="{6FA9FFE3-3091-4A1E-B6C9-6282A94EBA05}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

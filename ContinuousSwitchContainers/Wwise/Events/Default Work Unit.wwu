@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{641F50BC-9C22-482C-88BE-F89E1C071FED}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{641F50BC-9C22-482C-88BE-F89E1C071FED}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_ContinuousBicycle_Surface" ID="{198F7E5E-0366-483E-B616-4D310613F37F}">
+					<ChildrenList>
+						<Action Name="" ID="{F14E542E-3125-4DE0-B616-EF83E91B4F50}" ShortID="520984249">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ContinuousBicycle_Surface" ID="{AEC24BBB-C744-4C4A-85BF-3322D7ADD31E}" WorkUnitID="{1F17F29B-3854-4C6F-B883-E51633E444FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
