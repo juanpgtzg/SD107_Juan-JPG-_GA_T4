@@ -9,6 +9,23 @@
 							<ObjectRef Name="System" ID="{6841856F-21A2-4797-A3FD-0ABFE3B1394E}" WorkUnitID="{F8756427-4FAF-40FC-ABA8-DCC692C3CA7D}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Processing" ID="{19BEACE8-F36F-4D10-A074-221301C10506}">
+							<ChildrenList>
+								<Bus Name="Proc_Reverb" ID="{D961BFF8-944C-4376-8A84-D13087C87CC3}">
+									<ChildrenList>
+										<AuxBus Name="Rev_Hall" ID="{D342864F-0A4D-4821-AC7D-A0D40C61F977}"/>
+										<AuxBus Name="Rev_Room" ID="{E7B87CE5-0909-4332-9E7E-805B91E4B072}"/>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Proc_Exciter" ID="{9E41939B-BF8E-4CC7-992C-37D33C7B022C}">
+									<ChildrenList>
+										<AuxBus Name="Exciter_VeryHighEnd" ID="{B768790D-A8A3-43E7-A918-7084BD3B9825}"/>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
